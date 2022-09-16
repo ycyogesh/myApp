@@ -9,6 +9,7 @@ export class SidebarComponent implements OnInit {
 
   constructor() { }
   userInput : any;
+  isChanged:boolean = true;
   ngOnInit(): void {
   }
   clickBtn(event : any){

@@ -1,6 +1,6 @@
 <div>
     <input (keyup)="clickInput($event)" type="text" name="" id="">
-    <button (click)="clickBtn($event)">Click Me!</button>
+    <button [disabled]="isChanged" (click)="clickBtn($event)">Click Me!</button>
 </div>
 <div>
     <h4>User Entered</h4>

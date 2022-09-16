@@ -1,11 +1,11 @@
-
-<div>
-    <input (keyup)="clickInput($event)" type="text" name="" id="">
-    <button (click)="clickBtn($event)">Click Me!</button>
-</div>
-<div>
-    <h4>User Entered</h4>
+<div class="twoWay">
     <div>
-        {{userInput}}
+        <input [(ngModel)]="twoWayBinding" type="text" name="" id="">
+    </div>
+    <div>
+        <h3>Two way Binding</h3>
+    </div>
+    <div>
+        {{twoWayBinding}}
     </div>
 </div>

@@ -8,14 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class MainareaComponent implements OnInit {
 
   constructor() { }
-  userInput : any;
+  twoWayBinding : any;
   ngOnInit(): void {
   }
-  clickBtn(event : any){
-    console.log("Clicked",event.target.value);
-  }
-  clickInput(event : any){
-    console.log("Entered",event.target.value);
-    this.userInput = event.target.value
-  }
+
 }

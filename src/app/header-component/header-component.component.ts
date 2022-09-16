@@ -10,7 +10,7 @@ export class HeaderComponentComponent implements OnInit {
   constructor() { 
 
   }
-
+  title : any = "This is our First Angular Project"
   ngOnInit(): void {
   }
 
